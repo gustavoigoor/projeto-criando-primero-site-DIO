@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body background="img/fundo_site.jpg" >
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul style="list-style: square;">
+                <li><a href="index.html"><button style="background: #069cc2; border-radius: 6px; padding: 10px; cursor: pointer; color: #000000; border: none; font-size: 16px;">Home</button></a></li><br>
+                <li><a href="sobre.html"><button style="background: #069cc2; border-radius: 6px; padding: 10px; cursor: pointer; color: #000000; border: none; font-size: 16px;">Sobre</button></a></li><br>
+                <li><a href="horario_atendimento.html"><button style="background: #069cc2; border-radius: 6px; padding: 10px; cursor: pointer; color: #000000; border: none; font-size: 16px;">Horário de Atendimento</button></a></li><br>
+                <li><a href="contato.html"><button style="background: #069cc2; border-radius: 6px; padding: 10px; cursor: pointer; color: #000000; border: none; font-size: 16px;">Contato</button></a></a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <header> 
+                    <img src="img/contato.jpg" alt="imagem da pagina 1" height="500" width="1000" >
+                </header>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h3 style="font-family: Cambria;">Formulário de contato</h3>
+                <fieldset>
+                    <legend>Formulário para contato</legend>
+                <form method="get" onsubmit="alert('Formulário enviado')" >
+                     
+                    <label>Nome:</label><input type="text" name="nome" id="nome"><br><br>
+                    <label>E-mail:</label><input type="email" name="email" id="email"><br><br>
+                    <label>Assunto:</label><input type="text" name="assunto" id="assunto"><br><br>
+                    <label>Mensagem:</label><textarea> </textarea><br><br>
+                    <label>Imagem Jpeg/PnG</label><input type="file" name="fotoanimal" id="fotoanimal"><br><br>
+                    <button type="submit">Enviar</button>
+                    <input type="reset" value="Limpar formulário">
+                
+                </form>
+                </fieldset>
+
+                <h3 style="font-family: Cambria;"><u>Contato</u></h3>
+
+                <p style="font-family: Cambria;">Telefone para contato: <b>(22) 2664-5758</b> / WhatsApp: <b>(22)98853-3725</b></p>
+                <p style="font-family: Cambria;">Rod. Amaral Peixoto, 277 - Outeiro, Araruama - RJ, 28970-000</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.9967251123833!2d-42.338088500000026!3d-22.876942300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97693222420947%3A0xe566a7edd1b42084!2sAmo%20Araruama!5e0!3m2!1spt-BR!2sbr!4v1680990037763!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+    
+            <div class="footer">
+                <small><i>Desenvolvido por Gustavo Igor da Silva</small></i>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
